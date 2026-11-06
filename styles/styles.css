@@ -1,15 +1,30 @@
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav a {
+    color: rgb(167, 186, 209);
+    padding: 1rem;
+    display: block;
+}
+
 main {
     max-width: 840px;
+}
+
+h1 {
+    color: #6ba9c5;
 }
 
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
+    border: 1px solid rgba(62, 89, 148, 0.2);
     /* 1️⃣ */
     padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    background-color: #8fa1d3;
+    color: #06081d;
     text-align: center;
 }
 
@@ -21,6 +36,9 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid #9c8fc5;
+    padding: 2px;
+    box-shadow: 0 0 10px rgb(140, 136, 180);
 }
 
 p {
@@ -29,6 +47,6 @@ p {
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: 1px solid #02020f;
     text-align: center;
 }
