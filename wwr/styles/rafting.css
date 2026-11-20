@@ -104,10 +104,10 @@ header nav ul {
 }
 
 .hero article {
-    position: relative;
-    bottom: auto;
-    left: auto;
-    right: auto;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 15px;
 }
@@ -238,4 +238,12 @@ footer p {
         gap: 15px;
         text-align: center;
     }
+}
+
+.adventure-gallery figure {
+    background-color: var(--secondary-color);
+}
+
+nav a:hover {
+    color: var(--accent2-color);
 }
